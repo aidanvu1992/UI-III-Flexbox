@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+body{
+    width:  900px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+hr{
+    width: 100%;
+	border: 2px solid black;
+}
+
+nav{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+a{
+    margin: 20px 55px 20px 5px;
+    color:silver;
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 55px;
+   
+}
+
+.services-header-img{
+    width: 100%;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.Introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+.Introduction h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content{
+    border: 1px solid black;
+    margin: 15px 15px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    background-color: lightgray;
+}
+
+.content h2{
+   margin: 14px 14px
+}
+
+.content p{
+	word-spacing: 3px;
+	margin: 12px 15px 5px 15px;
+}
+
+button{
+	background-color: white;
+	margin: 4px 15px 20px 15px;
+	width: 40%;
+	padding: 15px
+}
+
+button:hover{
+   color: silver;
+   background: white;
+}
+
+footer{
+	display:flex;
+	flex-flow: row ;
+	justify-content: space-between;
+}
+
+footer h2{
+	margin: 2em 6em 1em 0em;
+}
+
+footer p{
+	margin: 1em 6em 1em 0em;
+}
+
+.services-info-img{
+	margin: 2em 0em;
+	width: 360px;
+}
+
+ul{
+	list-style-type: square;
+	margin: 2px 20px;
+}
+
+#Copyright{
+    text-align: center;
+	margin-top: 25px;
+}
